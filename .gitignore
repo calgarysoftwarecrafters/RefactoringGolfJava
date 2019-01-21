@@ -1,3 +1,10 @@
+# project files
+**/target
+**/.iml
+**/.classpath
+**/.settings
+**/bin
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
