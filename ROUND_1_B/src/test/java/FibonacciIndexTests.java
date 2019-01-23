@@ -13,12 +13,12 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 public class FibonacciIndexTests {
 
     @ParameterizedTest
-    @MethodSource("data")
+    @MethodSource("indexedFibonacciNumbers")
     public void findsIndexOfFibonacciNumber(int expectedIndex, long fibonacci) {
         assertEquals(expectedIndex, findIndexOf(fibonacci));
     }
 
-	static Stream<Arguments> data() {
+	static Stream<Arguments> indexedFibonacciNumbers() {
 		return Stream.of(
 				arguments(0,0),
 				arguments(1,1),
