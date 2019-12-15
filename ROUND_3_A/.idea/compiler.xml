@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RefactoringGolf2B" />
+        <module name="RefactoringGolf3A" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="RefactoringGolf2B" target="1.8" />
+      <module name="RefactoringGolf3A" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
